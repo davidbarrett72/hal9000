@@ -1,27 +1,28 @@
 {
- "name":"hal9000",
- "version":"0.2.0",
+ "name": "hal9000",
+ "version": "0.2.0",
  "description": "A slack bot written in node that does something cool.",
- "main":"robot.js",
- "scripts":{
- "start": "node robot.js"
+ "main": "robot.js",
+ "scripts": {
+  "start": "node robot.js"
  },
  "dependencies": {
- "botkit":"0.0.8"
+  "botkit": "0.0.8",
+  "express": "4.16.3"
  },
  "engines": {
- "node":"4.0.0"
+  "node": "4.0.0"
  },
  "repository": {
- "type": "git",
- "url": "path to source where your bot lives"
+  "type": "git",
+  "url": "path to source where your bot lives"
  },
  "keywords": [
- "bots",
- "chatbots",
- "slack",
- "example"
+  "bots",
+  "chatbots",
+  "slack",
+  "example"
  ],
- "author":"twitter handle",
- "license":"MIT"
+ "author": "twitter handle",
+ "license": "MIT"
 }
