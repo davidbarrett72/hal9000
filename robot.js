@@ -1,4 +1,5 @@
 var Botkit = require('botkit');
+require('dotenv').config();
 
 var controller = Botkit.slackbot({
   debug: false
@@ -6,7 +7,7 @@ var controller = Botkit.slackbot({
 
 // connect the bot to a stream of messages
 controller.spawn({
-  token: "xoxb-336690869060-laIwK3QnqKIfqQ6r8YyUJ3va"
+  token: process.env.SLACK_API
 }).startRTM()
 
 // give the bot something to listen for.
